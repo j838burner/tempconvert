@@ -3,6 +3,24 @@
 #
 import math
 
+def FtoC(TempF):
+ TempC=(TempF - 32) * 5 / 9
+ return(TempC)
+
+def CtoF(TempC):
+ TempF=(TempC * 9/5) + 32
+ return (TempC)
+
+def PickDirection()
+ print("Pick starting temperature type F or C")
+ raw_input(Direction)
+ if Direction != "F" OR if Direction != "f" OR if Direction != "C" OR if DIRECTION != "c":
+  then
+    print("Selection must be F | f | C | c")
+    break
+   else return(Direction)
+ 
+
 # ========================= Start Boys Life Code ===========================
 #
 #continueYN = "y"
@@ -31,8 +49,3 @@ import math
  
 #exit the program
 # ========================= End Boys Life Code ===========================
-
-
-def pick_direction():
-  print("Enter F or C")
-  
